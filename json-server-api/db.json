@@ -1,0 +1,213 @@
+{
+  "drinks": [
+    {
+      "code": 100,
+      "name": "Bold Pick Cafe",
+      "type": "Brewed Coffee",
+      "price": 2.99,
+      "src": "images/drip.jpg",
+      "modifiers": [
+        {
+          "name": "Suger",
+          "price": 0.3
+        },
+        {
+          "name": "Milk",
+          "price": 0.4
+        }
+      ]
+    },
+    {
+      "code": 200,
+      "name": "Espresso",
+      "type": "Espresso Beverages",
+      "price": 3.99,
+      "src": "images/espresso.jpg",
+      "modifiers": [
+        {
+          "name": "Chocolate Syrup",
+          "price": 0.25
+        },
+        {
+          "name": "Whipped Cream",
+          "price": 0.3
+        }
+      ]
+    },
+    {
+      "code": 300,
+      "name": "Caffè Latte",
+      "type": "Espresso Beverages",
+      "price": 4.49,
+      "src": "images/Latte.jpg",
+      "modifiers": [
+        {
+          "name": "Chocolate Syrup",
+          "price": 0.25
+        },
+        {
+          "name": "Whipped Cream",
+          "price": 0.3
+        }
+      ]
+    },
+    {
+      "code": 400,
+      "name": "Caramel Frappuccino",
+      "type": "Frappuccino Blended Beverage",
+      "price": 2.99,
+      "src": "images/caramel.jpg",
+      "modifiers": [
+        {
+          "name": "Chocolate Syrup",
+          "price": 0.25
+        },
+        {
+          "name": "Whipped Cream",
+          "price": 0.3
+        }
+      ]
+    },
+    {
+      "code": 500,
+      "name": "Passion Tango Tea",
+      "type": "Teavana Brewed Teas",
+      "price": 3.49,
+      "src": "images/teavana.jpg",
+      "modifiers": [
+        {
+          "name": "Suger",
+          "price": 0.3
+        },
+        {
+          "name": "Milk",
+          "price": 0.4
+        }
+      ]
+    },
+    {
+      "code": 600,
+      "name": "Chocolate Smoothie",
+      "type": "Smoothies",
+      "price": 1.99,
+      "src": "images/smoothie.jpg",
+      "modifiers": [
+        {
+          "name": "Suger",
+          "price": 0.3
+        },
+        {
+          "name": "Milk",
+          "price": 0.4
+        }
+      ]
+    }
+  ],
+  "invoices": [
+    {
+      "id": 110517258705,
+      "date": "7/31/2017, 10:58:24 PM",
+      "itemList": [
+        {
+          "name": "Passion Tango Tea",
+          "price": 3.49,
+          "quantity": 2,
+          "code": 500,
+          "modifiers": [],
+          "finalPrice": 3.49
+        },
+        {
+          "name": "Caffè Latte",
+          "price": 4.49,
+          "quantity": 1,
+          "code": 301,
+          "modifiers": [
+            {
+              "name": "Whipped Cream",
+              "price": 0.3
+            }
+          ],
+          "finalPrice": 4.79
+        },
+        {
+          "name": "Passion Tango Tea",
+          "price": 3.49,
+          "quantity": 2,
+          "code": 510,
+          "modifiers": [
+            {
+              "name": "Suger",
+              "price": 0.3
+            }
+          ],
+          "finalPrice": 3.79
+        }
+      ],
+      "Subtotal": 12.07,
+      "Total": "13.64"
+    },
+    {
+      "id": 785506589334,
+      "date": "8/7/2017, 10:56:25 AM",
+      "itemList": [
+        {
+          "name": "Bold Pick Cafe",
+          "price": 2.99,
+          "quantity": 1,
+          "code": 100,
+          "modifiers": [],
+          "finalPrice": 2.99
+        },
+        {
+          "name": "Chocolate Smoothie",
+          "price": 1.99,
+          "quantity": 1,
+          "code": 611,
+          "modifiers": [
+            {
+              "name": "Suger",
+              "price": 0.3
+            },
+            {
+              "name": "Milk",
+              "price": 0.4
+            }
+          ],
+          "finalPrice": 2.69
+        },
+        {
+          "name": "Caramel Frappuccino",
+          "price": 2.99,
+          "quantity": 1,
+          "code": 411,
+          "modifiers": [
+            {
+              "name": "Chocolate Syrup",
+              "price": 0.25
+            },
+            {
+              "name": "Whipped Cream",
+              "price": 0.3
+            }
+          ],
+          "finalPrice": 3.54
+        },
+        {
+          "name": "Passion Tango Tea",
+          "price": 3.49,
+          "quantity": 3,
+          "code": 510,
+          "modifiers": [
+            {
+              "name": "Suger",
+              "price": 0.3
+            }
+          ],
+          "finalPrice": 3.79
+        }
+      ],
+      "Subtotal": 13.009999999999998,
+      "Total": "14.70"
+    }
+  ]
+}
