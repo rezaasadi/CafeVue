@@ -7,6 +7,24 @@ confirmation of purchase is showing the cost based on drink type and chosen
 modifiers.
 
 
+
+
+
+## Demo
+
+![small-view](Home.png)
+![phone-view](Cart.png)
+
+
+
+## technologies
+* HTML5, CSS, JS, JQuery, [Bootstrap](http://getbootstrap.com/): frone-end
+* [VueJs framework](https://vuejs.org/)
+* Webpack : automation
+
+
+
+
 # How to run application on the local computer :
 
 Open bash or cmd and direct to CafeVue folder then
@@ -19,3 +37,7 @@ Open bash or cmd and direct to CafeVue folder then
 
 3)  serve with hot reload at localhost:8080
 > npm run dev
+
+## License
+
+[MIT License].
